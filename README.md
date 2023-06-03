@@ -1,1 +1,1 @@
-# B-i-t-p-ES6
+# Bai Tap ES6
