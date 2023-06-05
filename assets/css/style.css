@@ -39,7 +39,9 @@
   height: 590px;
   margin: 0 auto;
   position: relative;
+  background-repeat: no-repeat;
 }
+
 .body {
   width: 250px;
   height: 500px;
@@ -48,6 +50,7 @@
   top: 12%;
   left: 22%;
 }
+
 .bikinitop {
   width: 250px;
   height: 500px;
@@ -95,7 +98,7 @@
   bottom: -40%;
   right: -3.5%;
   transform: scale(0.5);
-  z-index: 4;
+  z-index: 5;
 }
 
 .hairstyle {
@@ -123,8 +126,8 @@
   width: 900px;
   height: 1500px;
   background-image: url(./../images/background/background1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
   position: absolute;
   bottom: -90%;
   right: -50%;
