@@ -12,3 +12,5 @@ function ListChousen() {
         return newArrItem;
     };
 };
+
+export {ListChousen};
